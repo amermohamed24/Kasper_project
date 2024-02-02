@@ -148,7 +148,7 @@ header nav .form{
     min-height: 100vh;
     position: relative;
     background-color: #377e92;
-    background-image: url('685208.jpg');
+    background-image: url('/images/685208.jpg');
     background-size: cover;
 }
 .landing .overlay{
@@ -190,7 +190,6 @@ header nav .form{
     line-height: 1.5;
     margin-bottom: 3px;
     text-transform: uppercase;
-0
     
 }
 .landing .text .content p{
@@ -315,9 +314,7 @@ header nav .form{
 
 }
 
-.services .box .text{
-    
-}
+
 .services .box .text h3{
     color: var(--main-color);
     margin-bottom: 30px;
@@ -334,7 +331,7 @@ header nav .form{
     padding-bottom: var(--section-padding);
     height: 600px;
     position: relative;
-    background-image: url(design-features.jpg);
+    background-image: url("/images/design-features.jpg");
     display: flex;
     background-size: cover;
     align-items: center;
@@ -528,7 +525,7 @@ padding: 10px;
 }
 /* start stats */
 .stats{
-    background-image: url("2082131.jpg");
+    background-image: url("/images/2082131.jpg");
     background-size: cover;
     display: flex;
     text-align: center;
@@ -802,23 +799,23 @@ padding: 10px;
     text-decoration: none;
     text-align: center;
     padding: 15px 30px;
-    background-color: red;
+    background-color: var(--main-color);
     width: fit-content;
     color: white;
     margin: 10px auto;
     border-radius: 6px;
-    transition: 0.7s;
+    transition: 0.3s;
 }
 .pricing .contact-link:hover{
-    transform: scale(1.2);
-    box-shadow: 0 2px 2px 1px black;
+    transform: scale(1.1);
+
 }
 /* end  pricing */
 /* start subscribe */
 .subscribe{
     padding-top:var(--section-padding);
     padding-bottom:var(--section-padding);
-    background-image: url("2082131.jpg");
+    background-image: url("/images/2082131.jpg");
     background-size: cover;
     position: relative;
     color:white;
@@ -958,7 +955,7 @@ padding: 10px;
 .footer{
     padding-top: var(--main-color);
     padding-bottom: 15px;
-    background-image: url("685208.jpg");
+    background-image: url("/images/685208.jpg");
     background-size: cover;
     position: relative;
 }
